@@ -1,0 +1,25 @@
+{
+    "C_Cpp.default.configurationProvider": "ms-vscode.makefile-tools",
+    "makefile.launchConfigurations": [
+        {
+            "cwd": "/home/ian/Developer/c++/open_gl/shaders",
+            "binaryPath": "/home/ian/Developer/c++/open_gl/shaders/shaders",
+            "binaryArgs": []
+        }
+    ],
+    "C_Cpp.default.includePath": [
+        "/home/ian/Developer/c++/open_gl/shaders/include"
+    ],
+    "C_Cpp.default.compilerPath": "/usr/bin/g++",
+    "C_Cpp.default.compileCommands": "",
+    "C_Cpp.default.compilerArgs": [
+        "-g -I/home/ian/Developer/c++/open_gl/shaders/include -lGL -lglfw -lpthread -lX11 -lXrandr -o shaders -std=c++17"
+    ],
+    "C_Cpp.default.cppStandard": "",
+    "C_Cpp.errorSquiggles": "disabled",
+    "files.associations": {
+        "*.cpp": "cpp",
+        "cmath": "cpp",
+        "iostream": "cpp"
+    }
+}
